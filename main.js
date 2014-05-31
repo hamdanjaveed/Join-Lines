@@ -64,14 +64,8 @@ define(function (require, exports, module) {
             var startingLine = editor._codeMirror.getCursor("start").line;
             var endLine = editor._codeMirror.getCursor("end").line;
 
-            console.log(startingLine + ", " + endLine);
-
-            console.log("selected: " + selectedText.split("\n").slice(1));
-
             lines = [splitText[startingLine]];
-            console.log(lines);
             lines = lines.concat(selectedText.split("\n").slice(1));
-            console.log(lines);
 
             start = {
                 line: startingLine,

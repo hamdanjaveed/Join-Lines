@@ -3,7 +3,7 @@
     "title": "Join Lines",
     "description": "Joins the next line or all the lines selected, with or without whitespace.",
     "homepage": "https://github.com/hamdanjaveed/Join-Lines",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Hamdan Javeed",
     "license": "MIT",
     "engines": {
