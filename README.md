@@ -7,10 +7,10 @@ A Brackets extension that joins lines.
 Instructions
 ============
 
-There are two ways to join lines. You can join the line your cursor is on with the next line by hitting Ctrl-J (for both mac and pc).
-You can alternatively join multiple lines by selecting them and hitting Ctrl-J (again, ctrl for mac as well).
+There are two ways to join lines. You can join the line your cursor is on with the next line by hitting Ctrl-Shift-J.
+You can alternatively join multiple lines by selecting them and hitting Ctrl-Shift-J.
 
-By hitting Ctrl-J, you join the lines with a single space character separating them. If you don't want that space character there, press Ctrl-Shift-J instead.
+By hitting Ctrl-Shift-J, you join the lines with a single space character separating them. If you don't want that space character there, press Ctrl-Alt-J instead.
 
 
 Install within Brackets
