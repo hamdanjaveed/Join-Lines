@@ -123,6 +123,8 @@ define(function (require, exports, module) {
     // add the two commands to the Edit menu
     var menu = Menus.getMenu(Menus.AppMenuBar.EDIT_MENU);
     menu.addMenuDivider();
-    menu.addMenuItem(COMMAND_ID_WHITESPACE, [{key: "Ctrl-Shift-J"}, {key: "Ctrl-Shift-J", platform: "mac"}]);
-    menu.addMenuItem(COMMAND_ID_NO_WHITESPACE, [{key: "Ctrl-Alt-J"}, {key: "Ctrl-Alt-J", platform: "mac"}]);
+    menu.addMenuItem(COMMAND_ID_WHITESPACE, 
+            [{key: "Ctrl-Shift-J"}, {key: "Command-Shift-J", platform: "mac"}]);
+    menu.addMenuItem(COMMAND_ID_NO_WHITESPACE, 
+            [{key: "Ctrl-Alt-J"}, {key: "Command-Alt-J", platform: "mac"}]);
 });
